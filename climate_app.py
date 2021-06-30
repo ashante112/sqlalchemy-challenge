@@ -36,14 +36,14 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return (
-        # f"Routes:<br />"
-        # f"<br />"
-        # f"/api/v1.0/precipitation<br />"
-        # f"/api/v1.0/stations<br />"
-        # f"/api/v1.0/tobs<br />"
-        # f"/api/v1.0/temp/start/end<br />"
-        # f"/api/v1.0/<start><br />"
-        # f"/api/v1.0/<start>/<end><br />"
+        f"Routes:<br />"
+        f"<br />"
+        f"/api/v1.0/precipitation<br />"
+        f"/api/v1.0/stations<br />"
+        f"/api/v1.0/tobs<br />"
+        f"/api/v1.0/temp/start/end<br />"
+        f"/api/v1.0/<start><br />"
+        f"/api/v1.0/<start>/<end><br />"
         "<h1><center>WELCOME TO SURF'S UP!</center></h1><br/>"
         "<h2><center>Please plug in the browser any of the available routes:</h2></center><br/>"
         "<h3><center>/api/v1.0/precipitation</h3></center><br/>"
